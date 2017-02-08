@@ -6,7 +6,7 @@ import { Product } from './../interfaces';
 import { TabChange } from './../util/tab-change.util';
 
 @Component({
-  selector: 'about-us',
+  selector: 'app-about-us',
   templateUrl: './about-us.component.html',
   styleUrls: ['./about-us.component.css']
 })
@@ -14,7 +14,7 @@ export class AboutUsComponent {
     public products: Product[] = PRODUCTS;
     constructor(private router: Router, private tabChange: TabChange) {}
     public goToProductCatalog(id: number): void {
-      this.router.navigate(['products-tabs']);
+      this.router.navigate(['app-products-tabs']);
       this.tabChange.selectedProductTabIndex = id;
     }
 }

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'carousal',
+  selector: 'app-carousal',
   templateUrl: './carousal.component.html',
   styleUrls: ['./carousal.component.css']
 })
