@@ -1,0 +1,8 @@
+.carousel{
+    overflow:hidden;
+    width:100%;
+}
+.carousel img{
+    display:block;
+    margin: 0 auto;
+}
