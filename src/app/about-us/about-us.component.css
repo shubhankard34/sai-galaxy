@@ -1,0 +1,9 @@
+.list-group-item {
+    cursor: pointer;
+}
+
+.container {
+    box-shadow: 14px 14px 14px 14px grey;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

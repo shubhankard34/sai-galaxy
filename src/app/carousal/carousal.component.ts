@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Image } from './../interfaces';
+
 @Component({
   selector: 'carousal',
   templateUrl: './carousal.component.html',
@@ -7,4 +7,3 @@ import { Image } from './../interfaces';
 })
 export class CarousalComponent {
 }
-
