@@ -1,11 +1,20 @@
 <md-tab-group>
-    <md-tab label = "Home" >
+    <md-tab>
+        <template md-tab-label>
+            <span class = "glyphicon glyphicon-home"></span> Home
+        </template>
         <app-home></app-home>
     </md-tab>
-    <md-tab label = "Products">
+    <md-tab>
+        <template md-tab-label>
+            <span class = "glyphicon glyphicon-briefcase"></span> Products
+        </template>
         <app-products></app-products>
     </md-tab>
-    <md-tab label = "About Us">
+    <md-tab>
+        <template md-tab-label>
+            <span class = "glyphicon glyphicon-comment"></span> About Us
+        </template>
         <app-about-us></app-about-us>
     </md-tab>
 </md-tab-group>
