@@ -1,0 +1,16 @@
+.jumbotron {
+    color: white;
+    background-color: black;
+}
+
+.btn-primary {
+    background-color: lawngreen;
+    border-color: lawngreen;
+    color: black;
+}
+
+.btn-primary :hover {
+    background-color: green;
+    border-color: green;
+    color: black;
+}

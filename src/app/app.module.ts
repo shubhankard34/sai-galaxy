@@ -16,6 +16,7 @@ import { ProductsTabsComponent } from './products-tabs/products-tabs.component';
 import { TabChange } from './util/tab-change.util';
 import { AppComponent } from './app.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 import 'hammerjs';
 
 @NgModule({
@@ -28,7 +29,8 @@ import 'hammerjs';
     CarousalComponent,
     ProductsComponent,
     ProductsTabsComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    ProductDetailsComponent
   ],
   imports: [
     MaterialModule.forRoot(),

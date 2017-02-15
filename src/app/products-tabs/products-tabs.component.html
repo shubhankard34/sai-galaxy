@@ -1,5 +1,6 @@
 <app-header-common></app-header-common>
 <md-tab-group [selectedIndex]=selectedTab>
     <md-tab *ngFor = "let product of products" label = "{{product.title}}">
+        <app-product-details [product] = "product"></app-product-details>
     </md-tab>
 </md-tab-group>

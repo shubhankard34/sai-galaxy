@@ -11,7 +11,7 @@ import { TabChange } from './../../util/tab-change.util';
 export class HomeComponent {
   constructor(private router: Router, private tabChange: TabChange) {}
   public goToProducts(): void {
-    this.router.navigate(['products-tabs']);
+    this.router.navigate(['app-products-tabs']);
     this.tabChange.selectedProductTabIndex = 0;
   }
 }

@@ -1,8 +1,10 @@
 .navbar {
     margin-bottom: 0;
-    background-color: #3f51b5;
+    background-color: black;
     border-radius: 0;
 }
 .navbar-brand {
     color: white;
+    font-family: 'Dr Sugiyama';
+    font-size: 30px;
 }

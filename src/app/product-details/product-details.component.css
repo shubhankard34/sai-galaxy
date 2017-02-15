@@ -1,13 +1,13 @@
-.list-group-item {
-    cursor: pointer;
+.img-responsive {
+    margin: 0 auto;
 }
-
 .container {
     box-shadow: 14px 14px 14px 14px grey;
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.container p {
+.sg-details {
     font-size: large;
+    margin-top: 15px;
 }
