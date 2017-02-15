@@ -1,6 +1,7 @@
 .jumbotron {
     color: white;
     background-color: black;
+    margin-bottom: 0;
 }
 
 .btn-primary {
