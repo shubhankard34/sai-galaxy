@@ -16,6 +16,7 @@ import { ProductsTabsComponent } from './products-tabs/products-tabs.component';
 import { TabChange } from './util/tab-change.util';
 import { AppComponent } from './app.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import 'hammerjs';
 
@@ -30,7 +31,8 @@ import 'hammerjs';
     ProductsComponent,
     ProductsTabsComponent,
     AboutUsComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    ContactUsComponent
   ],
   imports: [
     MaterialModule.forRoot(),
