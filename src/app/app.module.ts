@@ -41,7 +41,7 @@ import 'hammerjs';
      BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(APP_ROUTES)
+    RouterModule.forRoot(APP_ROUTES, { useHash: true })
   ],
   providers: [TabChange],
   bootstrap: [AppComponent]
