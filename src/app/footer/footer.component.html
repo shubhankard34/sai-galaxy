@@ -1,0 +1,18 @@
+<div class = "sg-footer">
+    <div class = "row">
+        <div class = "col-sm-3 col-xs-12">
+           <span (click) = "goToMainPage(0)">Home</span>
+        </div>
+
+        <div class = "col-sm-3 col-xs-12">
+            <p *ngFor = "let product of products" (click) = "goToProductCatalog(product.id)">{{product.title}}</p>
+        </div>
+
+        <div class = "col-sm-3 col-xs-12">
+            <span (click) = "goToMainPage(2)">About Us</span>
+        </div>
+        <div class = "col-sm-3 col-xs-12">
+            <span (click) = "goToMainPage(3)">Contact Us</span>
+        </div>
+    </div>
+</div>

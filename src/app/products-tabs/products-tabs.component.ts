@@ -18,4 +18,8 @@ export class ProductsTabsComponent implements AfterViewInit{
     public ngAfterViewInit(): void {
         this.selectedTab = this.tabChange.selectedProductTabIndex;
     }
+
+    public changeTab(id: number): void {
+        this.selectedTab = id;
+    }
 }

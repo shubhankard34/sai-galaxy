@@ -1,0 +1,15 @@
+.sg-footer {
+    color: white;
+    background-color: black;
+    margin-top: 2px;
+    text-align: center;
+    padding: 1em;
+}
+
+.sg-footer span {
+    cursor: pointer;
+}
+
+.sg-footer p {
+    cursor: pointer;
+}
