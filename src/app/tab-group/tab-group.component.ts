@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+
+import { TabChange } from './../util/tab-change.util';
 
 @Component({
   selector: 'app-tab-group',
@@ -6,4 +8,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./tab-group.component.css']
 })
 export class TabGroupComponent {
+    @Input()
+    public selectedTab;
+
+    constructor(private tabChange: TabChange) {}
 }

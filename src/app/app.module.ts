@@ -18,6 +18,7 @@ import { AppComponent } from './app.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
+import { FooterCommonComponent } from './footer/footer.component';
 import 'hammerjs';
 
 @NgModule({
@@ -32,7 +33,8 @@ import 'hammerjs';
     ProductsTabsComponent,
     AboutUsComponent,
     ProductDetailsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    FooterCommonComponent
   ],
   imports: [
     MaterialModule.forRoot(),

@@ -6,3 +6,7 @@
     display:block;
     margin: 0 auto;
 }
+
+.carousel-inner {
+    max-height: 400px;
+}

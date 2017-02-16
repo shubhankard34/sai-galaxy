@@ -1,2 +1,3 @@
 <app-header-common></app-header-common>
-<app-tab-group></app-tab-group>
+<app-tab-group [selectedTab] = mainTabIndex></app-tab-group>
+<app-footer-common (reloadMainPage) = "changeTab($event)"></app-footer-common>
